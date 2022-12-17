@@ -1,6 +1,7 @@
 import random
 
 with open("./hyakunin.txt", encoding="utf-8") as f:
-    wakes = [s.strip() for s in f.readlines()]
+    wakas = [s.strip() for s in f.readlines()]
 
-print(wakas[random.randrange(len(wakes))])
+print(”今日の一句” + wakas[random.randrange(len(wakes))])
+
