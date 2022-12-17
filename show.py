@@ -5,3 +5,5 @@ with open("./hyakunin.txt", encoding="utf-8") as f:
 
 print(”今日の一句” + wakas[random.randrange(len(wakes))])
 
+if __name__ == '__main__':
+   main()
